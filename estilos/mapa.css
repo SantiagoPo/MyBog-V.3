@@ -1,0 +1,151 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.grid-item {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilos de las localidades */
+.usaquen {
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+.suba {
+    width: 100%;
+    margin-top: -0px;
+    margin-left: 100px;
+}
+
+.chapinero {
+    width: 100;
+    margin-top: -220px;
+    margin-left: 280px;
+}
+
+.barrios_unidos {
+    width: 200px;
+    margin-top: 105px;
+    margin-left: 65px;
+}
+
+.engativa {
+    width: 200px;
+    margin-top: 105px;
+    margin-left: 160px;
+}
+
+.fontibon {
+    width: 200px;
+    margin-top: -1120px;
+    margin-left: 165px;
+}
+
+.teusaquillo {
+    width: 200px;
+    margin-top: -1215px;
+    margin-left: 153px;
+}
+
+.kennedy {
+    width: 200px;
+    margin-top: -858px;
+    margin-left: 272px;
+}
+
+.bosa {
+    width: 200px;
+    margin-top: -1270px;
+    margin-left: 138px;
+}
+
+.puente_aranda {
+    width: 200px;
+    margin-top: -1087px;
+    margin-left: 309px;
+}
+
+.santafe {
+    width: 200px;
+    margin-bottom: -20%;
+    margin-left: 338px;
+}
+
+.martines {
+    width: 200px;
+    margin-top: -1000px;
+    margin-left: 340px;
+}
+
+.candelaria {
+    width: 200px;
+    margin-top: -1330px;
+    margin-left: 464px;
+}
+
+.san_cristobal {
+    width: 200px;
+    margin-top: -1019px;
+    margin-left: 390px;
+}
+
+.usme {
+    width: 200px;
+    margin-top: -1023px;
+    margin-left: 410px;
+}
+
+.antonio_narino {
+    width: 200px;
+    margin-top: -1020px;
+    margin-left: 330px;
+}
+
+.tunjuelito {
+    width: 200px;
+    margin-top: -1106px;
+    margin-left: 320px;
+}
+
+.rafael_uribe {
+    width: 200px;
+    margin-top: -1223px;
+    margin-left: 478px;
+}
+
+.ciudad_bolivar {
+    width: 200px;
+    margin-top: -985px;
+    margin-left: 447px;
+}
+
+.suma_paz {
+    width: 200px;
+    margin-top: -1340px;
+    margin-left: 400px;
+}
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 480px) {
+    .grid-item {
+        width: 100%;
+    }
+}
